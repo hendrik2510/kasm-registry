@@ -6,9 +6,6 @@
     "security_opt": [
       "seccomp=unconfined"
     ],
-    "entrypoint": [
-      "/kasminit"
-    ],
     "user": 1000,
     "environment": {
       "HOME": "/home/kasm-user"
